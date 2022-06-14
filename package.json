@@ -1,0 +1,28 @@
+{
+  "name": "super-fortnight",
+  "version": "1.0.0",
+  "description": "Module 10 challenge",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pooja3093/super-fortnight.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pooja3093/super-fortnight/issues"
+  },
+  "homepage": "https://github.com/Pooja3093/super-fortnight#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^28.1.1"
+  }
+}
