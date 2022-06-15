@@ -3,49 +3,55 @@ const generateHTML = require('./template');
 
 //  Manager Card
 function generateManagerCard(managerData){
-   return` <div class="column">
-            <div class="card">
-            <div class="container">
-                <h2>${managerData.name}</h2>
-                <p class="title">${managerData.getRole()}</p>
-                <p>ID: ${managerData.id}</p>
-                <p>Office Number: ${managerData.officeNumber}</p>
-                <p>Email: <span><a href = 'mailto:${managerData.email}'>${managerData.email}</a></span></p>
-            </div>
-            </div>
-        </div>`
+   return` <div class="col-4 mt-4">
+   <div class="card h-100">
+       <div class="card-header">
+           <h3>${managerData.name}</h3>
+           <h5>Manager</h5><i class="material-icons">content_paste</i>
+       </div>
+       <div class="card-body">
+           <p class="id">ID: ${managerData.id}</p>
+           <p class="office">Office Number: ${managerData.officeNumber}</p>
+           <p class="email">Email: <a href="mailto:${managerData.email}">${managerData.email}</a></p>
+       </div>
+   </div>
+</div>`
 }
 
 
 //  Engineer Card
 function generateEngineerCard(engineerData){
-    return` <div class="column">
-            <div class="card">
-            <div class="container">
-                <h2>${engineerData.name}</h2>
-                <p class="title">${engineerData.getRole()}</p>
-                <p>ID: ${engineerData.id}</p>
-                <p>Github Username: <span><a href = 'https://github.com/${engineerData.username}'>${engineerData.username}</a></span></p>
-                <p>Email: <span><a href = 'mailto:${engineerData.email}'>${engineerData.email}</a></span></p>
-            </div>
-            </div>
-        </div>`
+    return`<div class="col-4 mt-4">
+    <div class="card h-100">
+        <div class="card-header">
+            <h3>${engineerData.name}</h3>
+            <h5>Engineer</h5><i class="material-icons">laptop_mac</i>
+        </div>
+        <div class="card-body">
+            <p class="id">ID: ${engineerData.id}</p>
+            <p class="github">Github: <a href="https://github.com/${engineerData.github}">${engineerData.github}</a></p>
+            <p class="email">Email: <a href="mailto:${engineerData.email}">${engineerData.email}</a></p>
+        </div>
+    </div>
+</div>`
 }
 
 
 //  Intern card
 function generateInternCard(internData){
-    return` <div class="column">
-            <div class="card">
-            <div class="container">
-                <h2>${internData.name}</h2>
-                <p class="title">${internData.getRole()}</p>
-                <p>ID: ${internData.id}</p>
-                <p>School: ${internData.school}</p>
-                <p>Email: <span><a href = 'mailto:${internData.email}'>${internData.email}</a></span></p>
-            </div>
-            </div>
-        </div>`
+    return`  <div class="col-4 mt-4">
+    <div class="card h-100">
+        <div class="card-header">
+            <h3>${internData.name}</h3>
+            <h5>Intern</h5><i class="material-icons">assignment_ind</i>
+        </div>
+        <div class="card-body">
+            <p class="id">ID: ${internData.id}</p>
+            <p class="school">School: ${internData.school}</p>
+            <p class="email">Email:<a href="mailto:${internData.email}">${internData.email}</a></p>
+        </div>
+</div>
+</div>`
 }
 
 // Push data from input to respective cards 

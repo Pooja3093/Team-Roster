@@ -1,59 +1,68 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Our Team</title>
-        <link rel="stylesheet" href="./style.css">
+        <title>Team Profile</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Public+Sans:300i,300,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-          <h1>Our Team</h1>
+            <nav class="navbar" id="navbar">
+                <span class="navbar-brand mb-0 h1 w-100 text-center" id="navbar-text">Team Profile</span>
+            </nav>
         </header>
-        <div class="row">
-             <div class="column">
-            <div class="card">
+        <main>
             <div class="container">
-                <h2>drrgsrt</h2>
-                <p class="title">Manager</p>
-                <p>ID: 65</p>
-                <p>Office Number: 23</p>
-                <p>Email: <span><a href = 'mailto:asrgs'>asrgs</a></span></p>
-            </div>
-            </div>
-        </div> <div class="column">
-            <div class="card">
-            <div class="container">
-                <h2>sgsdfvgs</h2>
-                <p class="title">Engineer</p>
-                <p>ID: 342</p>
-                <p>Office Number: <span><a href = 'https://github.com/undefined'>undefined</a></span></p>
-                <p>Email: <span><a href = 'mailto:dxfbhsf'>dxfbhsf</a></span></p>
-            </div>
-            </div>
-        </div> <div class="column">
-            <div class="card">
-            <div class="container">
-                <h2>esdrfgsrg</h2>
-                <p class="title">Intern</p>
-                <p>ID: 343</p>
-                <p>School: sdfgshs</p>
-                <p>Email: <span><a href = 'mailto:sdfrgsrdfg'>sdfrgsrdfg</a></span></p>
-            </div>
-            </div>
-        </div> <div class="column">
-            <div class="card">
-            <div class="container">
-                <h2>srgsfdgb</h2>
-                <p class="title">Engineer</p>
-                <p>ID: 565</p>
-                <p>Office Number: <span><a href = 'https://github.com/undefined'>undefined</a></span></p>
-                <p>Email: <span><a href = 'mailto:ghsfghse'>ghsfghse</a></span></p>
-            </div>
-            </div>
+                <div class="row justify-content-center" id="team-cards">
+                    <!--Team Cards-->
+                     <div class="col-4 mt-4">
+   <div class="card h-100">
+       <div class="card-header">
+           <h3>Pooja</h3>
+           <h5>Manager</h5><i class="material-icons">content_paste</i>
+       </div>
+       <div class="card-body">
+           <p class="id">ID: 21</p>
+           <p class="office">Office Number: 123</p>
+           <p class="email">Email: <a href="mailto:pooja.patel@gmail.com">pooja.patel@gmail.com</a></p>
+       </div>
+   </div>
+</div><div class="col-4 mt-4">
+    <div class="card h-100">
+        <div class="card-header">
+            <h3>Veda</h3>
+            <h5>Engineer</h5><i class="material-icons">laptop_mac</i>
         </div>
-
+        <div class="card-body">
+            <p class="id">ID: 13</p>
+            <p class="github">Github: <a href="https://github.com/Pooja3093">Pooja3093</a></p>
+            <p class="email">Email: <a href="mailto:veda@gmail.com">veda@gmail.com</a></p>
         </div>
+    </div>
+</div>  <div class="col-4 mt-4">
+    <div class="card h-100">
+        <div class="card-header">
+            <h3>Jiten</h3>
+            <h5>Intern</h5><i class="material-icons">assignment_ind</i>
+        </div>
+        <div class="card-body">
+            <p class="id">ID: 34</p>
+            <p class="school">School: U of T</p>
+            <p class="email">Email:<a href="mailto:jiten@gmail.com">jiten@gmail.com</a></p>
+        </div>
+</div>
+</div>
+                </div>
+            </div>
+        </main>
+        
     </body>
-</html>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </html>
