@@ -26,7 +26,7 @@ After all the employee information is added, all the data will be inserted in a 
 ## Installation
 The user should clone the repository from GitHub and download Node. This application also requires a file system and inquirer module. If testing is required, this application uses Jest.
 
-After cloning the repository, run npm install command to install all dependencies.
+After cloning the repository, run "npm install" command to install all dependencies.
 
 
 ## Usage
@@ -34,10 +34,11 @@ Run command "node index" in terminal to start the application. Then answer the p
 
 
 ## Tests
-Run npm test to run Jest for tests on constructors.
+Run "npm test" to run Jest for tests on constructors.
 
 
 ## Links
 
 [Github repository](https://github.com/Pooja3093/super-fortnight.git)
+
 [Walk through video](https://drive.google.com/file/d/1Hqv-TNMcMr3zdd0Iul0Rxt2vVdRppMQ5/view)
