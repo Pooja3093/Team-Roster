@@ -1,9 +1,4 @@
-# super-fortnight
-
 # Team-Roster
-
-## Module 10 challenge
-
 
 ## Description
 
